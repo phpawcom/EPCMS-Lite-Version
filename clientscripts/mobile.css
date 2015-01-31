@@ -1,0 +1,27 @@
+#wrapper {
+	margin: 5px auto;
+	width: 97%;
+}
+
+#navigation { /*display: none;*/ }
+#businessLocation ol { margin: 0 10%; padding: 0; }
+#loc_loading { text-align: center; margin: 10px 0; display: none; }
+
+#userPanel .business .name { margin-right: 215px; padding: 5px; }
+#userPanel .business .options { float: right; width: 160px !important; }
+
+
+@media only screen and (max-width : 480px) {
+	.floatForm { float: none; width: 100%; }
+	#business_form .floatField { float: none; width: 95%; margin: 0 auto; }
+	
+}
+@media only screen and (max-width : 320px) {
+	.floatForm { float: none; width: 100%; }
+	#change_language { position: absolute; left: 230px; top: 5px;  }
+	#userPanel .business .lastupdate { display: none; }
+}
+@media only screen and (max-width : 375px) {
+	.floatForm { float: none; width: 100%; }
+	#userPanel .business .lastupdate { display: none; }
+}
