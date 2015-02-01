@@ -6,7 +6,7 @@ This version is a lite copy of version. This version is not supported and users 
 ##### How to start
 - Upload files to your server or local host
 - Configure the connection Details in includes/config.php:
-```
+```php
 $configDatabase['server'] = 'localhost'; // Server 
 $configDatabase['username'] = 'root'; // Username
 $configDatabase['password'] = ''; // Password
@@ -15,7 +15,7 @@ $configDatabase['prefix'] = 'epcms_'; Prefix if applicable
 ```
 
 ##### Methods
-```
+```php
 $script->safeinput('any input here'); ## To secure any user entries
 $script->reading_multi_languages('JSON Object', 'Language ID'); ## To read JSON object that contain several languages
 $script->is_duplicated($input, $field, $table, $exclude = ''); ## To check for any duplicated records such as usernames and emails
